@@ -1,0 +1,13 @@
+header {
+    width: 90%;
+    margin: auto;
+}
+
+.header__img {
+    width: 5%;
+    margin: 2%;
+}
+
+.header__title {
+    margin-top: 0;
+}

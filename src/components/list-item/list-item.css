@@ -1,0 +1,24 @@
+.emoji {
+    padding:1%;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    vertical-align: center;
+    position:relative;
+}
+
+.emoji__symbol {
+    font-size: 2em;
+    margin-right: 2%;
+}
+
+.emoji__tilte {
+    font-size: 0.8em;
+    vertical-align: text-top;
+}
+
+.emoji__copy-text {
+    position: absolute;
+    right: 1%;
+    font-size: 0.7em;
+    color: rgb(180,180,180);
+    top: 45%;
+}
