@@ -1,13 +1,11 @@
 import React from 'react';
 import './list.css';
 
-class List extends React.Component {
+const List = (props) => {
 
-    render() {
-        return (
-            <ul className="result-list">{this.props.items}</ul>
-        )
-    }
+    return (
+        <ul className="result-list">{props.items}</ul>
+    )
 }
 
 export default List;

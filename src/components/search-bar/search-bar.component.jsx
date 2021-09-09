@@ -1,14 +1,12 @@
 import React from 'react';
 import './search-bar.styles.css';
 
-class SearchBar extends React.Component {
+const SearchBar = (props) => {
 
-    render() {
-        return (
-            <input type="text" placeholder="Which emoji are you looking for?" onChange={this.props.onChange}></input>
-        )
+    return (
+        <input type="text" placeholder="Which emoji are you looking for?" onChange={props.onChange}></input>
+    )
 
-    }
 }
 
 export default SearchBar;
